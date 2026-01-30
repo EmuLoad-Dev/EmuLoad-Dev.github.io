@@ -1,0 +1,85 @@
+**Fanby Game Privacy Policy**
+
+Last updated: January 28, 2026
+
+Fanby Game ("we", "us", or "our") operates the Fanby Game mobile application (the "App"), a casual collection of relaxing mini-games designed for short, gentle play sessions.
+
+We are committed to protecting your privacy. This Privacy Policy explains what information we collect (if any), how we use it, and your choices regarding that information. Please read it carefully.
+
+**1. Information We Collect**
+
+The App is designed to be simple, offline-capable where possible, and does not require any user accounts, logins, registrations, or personal identifiers.
+
+We may collect only the following limited, non-personal information automatically when you use the App:
+
+- Device information: such as device type, operating system version, device model, and unique device identifiers (e.g., advertising ID or similar anonymized identifiers provided by the platform).
+- Usage data: such as app launch times, session duration, which mini-games are played, how often levels are completed, and general interaction patterns (e.g., taps, swipes).
+- Technical logs: such as crash reports, performance metrics, and error logs to help improve stability.
+
+We do **not** collect:
+
+- Your name, email address, phone number, or any other personally identifiable information.
+- Precise location data.
+- Payment information (the App has no in-app purchases at this time).
+- Any content you create or input beyond gameplay itself.
+
+No data is collected that can reasonably be used to identify you as an individual.
+
+**2. How We Use the Information**
+
+We use the limited information we collect solely to:
+
+- Provide, operate, and improve the App (e.g., fix bugs, optimize performance, balance game difficulty based on anonymous trends).
+- Understand general usage patterns to make the experience more relaxing and enjoyable.
+- Generate anonymized analytics for internal purposes only.
+
+We do not use this information for marketing, profiling, behavioral advertising, or any purpose that identifies individual users.
+
+**3. Sharing of Information**
+
+We do not sell, rent, trade, or otherwise share your information with third parties for their own commercial purposes.
+
+We may share anonymized, aggregated data with analytics providers (if any are integrated) strictly for the purposes described above. These providers are contractually bound to use the data only for processing on our behalf and not for their independent use.
+
+In rare cases, we may disclose information if required by law, such as in response to a valid court order or government request.
+
+**4. Third-Party Services**
+
+The App may use certain third-party services or SDKs (e.g., for crash reporting, basic analytics, or platform features like Apple Game Center/Google Play Games if enabled in the future). Each such service has its own privacy policy governing their data practices.
+
+We do not currently integrate any advertising networks, social logins, or other services that require extensive data sharing.
+
+**5. Children's Privacy**
+
+The App is not directed to children under the age of 13 (or the applicable age in your country), and we do not knowingly collect personal information from children.
+
+If you are a parent or guardian and believe your child has provided us with personal information, please contact us at the address below. We will promptly delete such information.
+
+**6. Data Retention**
+
+We retain the limited technical and usage data only for as long as necessary to fulfill the purposes outlined in this policy, typically no longer than 12–24 months, after which it is anonymized further or deleted.
+
+**7. Your Choices and Rights**
+
+- You can stop all data collection by simply uninstalling the App.
+- On iOS, you can limit ad tracking via device settings ("Limit Ad Tracking").
+- On Android, you can opt out of interest-based ads via device settings ("Opt out of Ads Personalization").
+- Because we collect no personal data, most traditional data rights (access, deletion, portability) do not apply, as there is nothing identifiable to provide or delete.
+
+**8. Security**
+
+We take reasonable measures to protect the limited data we process from loss, misuse, or unauthorized access. However, no method of transmission over the internet or electronic storage is 100% secure.
+
+**9. Changes to This Privacy Policy**
+
+We may update this Privacy Policy from time to time. The updated version will be posted in the App and/or on our website (if available), with the "Last updated" date revised.
+
+Your continued use of the App after changes constitutes acceptance of the updated policy.
+
+**10. Contact Us**
+
+If you have any questions about this Privacy Policy, please contact us at:
+
+fanbeibei1bei@icloud.com
+
+Thank you for playing Fanby Game — we hope it brings you a moment of calm.
