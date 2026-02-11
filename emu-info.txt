@@ -1,0 +1,29 @@
+RetroHub
+
+RetroHub is a retro game app for iOS. This page describes what the app does for players.
+
+
+SUPPORTED PLATFORMS
+
+• NES — Play Nintendo Entertainment System games.
+• Game Boy / Game Boy Color — Play classic handheld titles.
+• Genesis / Mega Drive — Play Sega Genesis and Mega Drive games.
+• GBA — Play Game Boy Advance games.
+• SNES — Play Super Nintendo games.
+
+
+FEATURES
+
+• Game library — Add your own game files and browse them in one place. Filter by platform (All, NES, GEN, GBC, GBA, SNES).
+• In-game menu — Pause and open a menu during play to save, load, or return to the library.
+• Save and load — Save your progress to slots and load from them later. Quick save is available from the in-game menu.
+• Touch controls — On-screen controls adapted to each platform (d-pad and action buttons).
+• Settings — Access app settings and support/contact from within the app.
+
+
+CONTACT
+
+For support or feedback, contact the developer:
+Email: gamefan9688@qq.com
+
+You can also use the contact option in the app’s Settings.
