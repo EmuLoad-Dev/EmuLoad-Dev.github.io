@@ -1,6 +1,6 @@
-RetroHub
+EmuCool
 
-RetroHub is a retro game app for iOS. This page describes what the app does for players.
+EmuCool is a retro game app for iOS. This page describes what the app does for players.
 
 
 SUPPORTED PLATFORMS
