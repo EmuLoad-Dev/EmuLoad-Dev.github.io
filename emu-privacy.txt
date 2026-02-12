@@ -1,8 +1,8 @@
-**RetroHub Privacy Policy**
+**EmuCool Privacy Policy**
 
 Last updated: February 11, 2026
 
-RetroHub ("we", "us", or "our") operates the RetroHub mobile application (the "App"), a retro game emulator hub that allows you to play classic games on supported platforms.
+EmuCool ("we", "us", or "our") operates the EmuCool mobile application (the "App"), a retro game emulator hub that allows you to play classic games on supported platforms.
 
 We are committed to protecting your privacy. This Privacy Policy explains what information we collect (if any), how we use it, and your choices regarding that information. Please read it carefully.
 
@@ -82,6 +82,6 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 gamefan9688@qq.com
 
-Thank you for using RetroHub — we hope you enjoy your retro gaming experience.
+Thank you for using EmuCool — we hope you enjoy your retro gaming experience.
 
 ____
