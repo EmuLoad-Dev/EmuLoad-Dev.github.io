@@ -1,6 +1,6 @@
 **EmuCool Privacy Policy**
 
-Last updated: February 11, 2026
+Last updated: March 12, 2026
 
 EmuCool ("we", "us", or "our") operates the EmuCool mobile application (the "App"), a retro game emulator hub that allows you to play classic games on supported platforms.
 
@@ -16,11 +16,13 @@ We may collect only the following limited, non-personal information automaticall
 - Usage data: such as app launch times, session duration, which emulated platforms or games are used, and general interaction patterns (e.g., taps, swipes).
 - Technical logs: such as crash reports, performance metrics, and error logs to help improve stability.
 
+Subscription-related data: If you use our optional paid subscription (EmuCool Pro), payment is processed entirely by Apple. We do not collect or store your payment details (e.g., card number or billing address). The App receives from Apple only whether your subscription is active and when it expires, so we can enable Pro features (e.g., premium filters, extra save slots). This subscription status is used only on your device and for the purposes described above.
+
 We do **not** collect:
 
 - Your name, email address, phone number, or any other personally identifiable information.
 - Precise location data.
-- Payment information (the App has no in-app purchases at this time).
+- Your payment details (payment is processed by Apple; we do not collect or store payment information).
 - Any content you create or input beyond gameplay itself (e.g., ROM files or save data remain on your device).
 
 No data is collected that can reasonably be used to identify you as an individual.
@@ -32,6 +34,7 @@ We use the limited information we collect solely to:
 - Provide, operate, and improve the App (e.g., fix bugs, optimize performance).
 - Understand general usage patterns to make the experience more reliable and enjoyable.
 - Generate anonymized analytics for internal purposes only.
+- Enable subscription benefits (e.g., Pro features) using subscription status provided by Apple, as described in Section 1.
 
 We do not use this information for marketing, profiling, behavioral advertising, or any purpose that identifies individual users.
 
@@ -45,7 +48,7 @@ In rare cases, we may disclose information if required by law, such as in respon
 
 **4. Third-Party Services**
 
-The App may use certain third-party services or SDKs (e.g., for crash reporting, basic analytics, or platform features like Apple Game Center if enabled in the future). Each such service has its own privacy policy governing their data practices.
+The App may use certain third-party services or SDKs (e.g., for crash reporting, basic analytics, or platform features). Subscription purchases and restores are handled by Apple (StoreKit); Apple’s privacy policy and terms apply to those transactions. We do not receive or store your payment information from Apple.
 
 We do not currently integrate any advertising networks, social logins, or other services that require extensive data sharing.
 
@@ -65,6 +68,7 @@ We retain the limited technical and usage data only for as long as necessary to 
 - On iOS, you can limit ad tracking via device settings ("Limit Ad Tracking").
 - On Android, you can opt out of interest-based ads via device settings ("Opt out of Ads Personalization").
 - Because we collect no personal data, most traditional data rights (access, deletion, portability) do not apply, as there is nothing identifiable to provide or delete.
+- You can manage or cancel your EmuCool Pro subscription at any time in your device Settings under your Apple ID → Subscriptions.
 
 **8. Security**
 
@@ -83,5 +87,3 @@ If you have any questions about this Privacy Policy, please contact us at:
 gamefan9688@qq.com
 
 Thank you for using EmuCool — we hope you enjoy your retro gaming experience.
-
-____
