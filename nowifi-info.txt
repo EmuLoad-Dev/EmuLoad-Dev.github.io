@@ -1,0 +1,47 @@
+No Wifi Games
+
+No Wifi Games is an offline mini puzzle game collection for iOS. This page describes what the app does for players.
+
+
+GAMES
+
+The app ships with 11 handcrafted classic casual games, all available offline in a single download.
+
+Number & Logic Puzzles
+• 2048 — Slide and merge numbers to reach the 2048 tile and beyond.
+• 1010! — Place block pieces on a grid and clear full rows or columns.
+• Sudoku — Classic 9×9 sudoku with three difficulty levels.
+• Minesweeper — The timeless mine-finder with three difficulty levels.
+
+Strategy & Planning
+• Tetres — A Tetris-style falling-block game with line clears and increasing speed.
+• Water Sort — Liquid sorting puzzle across three difficulty levels.
+• Merge Puzzle — A flood-fill style merge game with chain reactions.
+
+Action & Reflex
+• Clumsy Bird — Tap to fly a bird through pipe gaps.
+• Cat Trap — Surround and trap the wandering cat on a hex board (10 levels).
+
+Puzzle & Exploration
+• Word Search — Find hidden words in a letter grid.
+• Cat & Mouse — A maze strategy game where you guide the mouse to the cheese.
+
+
+FEATURES
+
+• All-in-one library — 11 classic games in one app. No need to download multiple apps.
+• 100% offline — No internet connection required. Play on subways, flights, or anywhere with no signal.
+• No ads, no in-app purchases — One download, forever free. No pop-ups, no upsells.
+• No login — Open and play instantly. No account, no registration.
+• Daily featured game — A different game is highlighted on the home screen each day to help you explore the whole collection.
+• Graduation system — Each game has a long-term Graduation Goal. Reach it to earn the Master title, with a gold progress bar that is saved permanently.
+• Per-game high scores — Best scores are tracked independently for each game and difficulty.
+• Mid-game saves — Select titles support resume from where you left off.
+• Privacy first — Zero data collection, zero network requests, zero tracking, zero sensitive permissions.
+• Age rating 4+ — Suitable for all ages.
+
+
+CONTACT
+
+For support or feedback, contact the developer:
+Email: gamefan9688@qq.com
