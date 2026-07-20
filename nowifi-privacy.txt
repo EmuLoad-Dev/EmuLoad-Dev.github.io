@@ -1,0 +1,118 @@
+**No Wifi Games Privacy Policy**
+
+Last updated: July 20, 2026
+
+No Wifi Games ("we", "us", or "our") operates the No Wifi Games mobile application (the "App"), a classic casual game collection that runs entirely offline on iOS.
+
+We are committed to protecting your privacy. This Privacy Policy explains what information we collect (which is none), how the App handles data, and your choices. Please read it carefully.
+
+**1. Information We Collect**
+
+The App is designed from the ground up to be fully offline and to collect no user data whatsoever. The App does **not** collect any of the following:
+
+- Your name, email address, phone number, or any other personally identifiable information.
+- Device identifiers such as IDFA, IDFV, UUID, or advertising identifiers.
+- Precise or coarse location data.
+- Contacts, photos, calendar, or any other on-device content.
+- Usage behavior, analytics, or statistics (e.g., app launch counts, session duration, which games are played).
+- Crash reports, performance metrics, or error logs.
+- Browsing history or in-game behavior.
+- Payment information — the App has no in-app purchases and no payment flow.
+
+The App does **not** integrate any third-party SDK, analytics tool, advertising framework, or tracking component. No data is collected that can reasonably be used to identify you as an individual.
+
+**2. Data Stored on Your Device**
+
+The App stores a small amount of data locally on your device to support gameplay. This data never leaves your device:
+
+- High scores — Best score records for each game.
+- Graduation status — Marks for games whose Graduation Goal has been reached (used to display the Master title and gold progress bar).
+- Game progress saves — Mid-game state for select titles that support resume.
+- Difficulty and settings — The difficulty level and preferences you have chosen.
+
+This data is stored in the device's local NSUserDefaults. It is **not** synced to iCloud, **not** uploaded to any server, and **not** shared with any third party. Uninstalling the App removes all of this data.
+
+**3. How We Use the Information**
+
+Because the App does not collect any data, there is no information to use for analytics, marketing, profiling, behavioral advertising, or any other purpose.
+
+The locally stored data described in Section 2 is used solely to provide the gameplay experience on your device (e.g., displaying your best score, restoring an unfinished game).
+
+**4. Network Access**
+
+The App runs **100% offline**. During its entire lifecycle it does not initiate any network request.
+
+- No login or registration flow.
+- No account system.
+- No cloud sync.
+- No online leaderboards.
+- No remote resource downloads.
+
+The App does not request the network permission, which structurally prevents any data leakage.
+
+**5. Sharing of Information**
+
+Because the App does not collect any data, there is nothing to share, sell, rent, or trade with third parties.
+
+The App does not integrate any third-party component, including but not limited to:
+
+- Advertising networks (e.g., AdMob, Facebook Audience Network).
+- Analytics platforms (e.g., Firebase Analytics, Flurry).
+- Crash reporting tools (e.g., Crashlytics, Bugly).
+- Push services (e.g., Firebase Cloud Messaging).
+
+**6. Permissions**
+
+The App does **not** request any sensitive system permissions:
+
+| Permission | Requested | Reason |
+|------------|-----------|--------|
+| Network | No | Fully offline. |
+| Location | No | Not used. |
+| Camera | No | Not used. |
+| Photos | No | Not used. |
+| Microphone | No | Not used. |
+| Contacts | No | Not used. |
+| Notifications | No | No push notifications sent. |
+| Bluetooth | No | Not used. |
+| Health data | No | Not used. |
+| Tracking (ATT) | No | No tracking SDKs integrated. |
+
+The App's Info.plist does not contain any `NSxxxUsageDescription` keys, and it does not call `ATTrackingManager.requestTrackingAuthorization`. No ATT authorization prompt is shown.
+
+**7. Children's Privacy**
+
+The App contains 11 classic casual games with no violence, sexual content, or other inappropriate material. The App Store age rating is **4+**.
+
+Because the App collects no data, there is no privacy risk to children under 13 (or the applicable age in your country). We comply with the Children's Online Privacy Protection Act (COPPA) and related regulations.
+
+**8. Data Retention**
+
+Since the App does not collect any data, there is no retention period to define.
+
+Locally stored game data (high scores, graduation status, saves) remains on your device until you uninstall the App or reset game progress from within the App (where applicable).
+
+**9. Your Choices and Rights**
+
+Because the App does not collect any personal data, traditional data rights (access, deletion, portability) do not apply — there is nothing identifiable to provide or delete.
+
+If you wish to clear local game data, you can:
+
+- Uninstall the App from iOS Settings → General → iPhone Storage → No Wifi Games → Delete App.
+- Reset game progress from within the App where a reset option is provided.
+
+**10. Security**
+
+The App's data lives only on your device and is protected by iOS device-level encryption. Because no network transmission occurs and no third-party components are integrated, the App introduces no additional security risk.
+
+**11. Changes to This Privacy Policy**
+
+We may update this Privacy Policy from time to time. The updated version will be posted with the "Last updated" date revised. Because the App does not collect data, we do not expect material changes to this policy.
+
+**12. Contact Us**
+
+If you have any questions about this Privacy Policy, please contact us at:
+
+gamefan9688@qq.com
+
+Thank you for using No Wifi Games — we hope you enjoy the collection.
