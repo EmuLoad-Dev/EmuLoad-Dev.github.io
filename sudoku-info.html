@@ -52,44 +52,7 @@
         .wrap { max-width: 860px; margin: 0 auto; }
 
         .hero {
-            display: flex;
-            align-items: center;
-            gap: 1.25rem;
             margin-bottom: 2.75rem;
-        }
-
-        .mark {
-            position: relative;
-            flex: 0 0 auto;
-            width: 76px;
-            height: 76px;
-            border-radius: 18px;
-            background: linear-gradient(150deg, var(--accent-top), var(--accent-bottom));
-            box-shadow: 0 10px 24px var(--shadow);
-            overflow: hidden;
-        }
-
-        .mark::before {
-            content: "";
-            position: absolute;
-            inset: 13px;
-            background-image:
-                linear-gradient(to right, rgba(255,255,255,0.62) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(255,255,255,0.62) 1px, transparent 1px);
-            background-size: 33.333% 33.333%;
-            background-position: -1px -1px;
-            border: 1px solid rgba(255,255,255,0.62);
-            border-radius: 5px;
-        }
-
-        .mark::after {
-            content: "";
-            position: absolute;
-            right: 13px;
-            top: 13px;
-            width: 16.5px;
-            height: 16.5px;
-            background: var(--highlight);
         }
 
         h1 {
@@ -240,10 +203,6 @@
 
         @media (max-width: 560px) {
             body { padding: 2rem 1rem 3rem; }
-            .hero { gap: 1rem; }
-            .mark { width: 62px; height: 62px; border-radius: 15px; }
-            .mark::before { inset: 11px; }
-            .mark::after { right: 11px; top: 11px; width: 13.5px; height: 13.5px; }
             .contact { padding: 1.5rem 1.25rem; }
             .contact .privacy-link { display: block; margin-left: 0; margin-top: 0.75rem; }
         }
@@ -252,11 +211,8 @@
 <body>
     <main class="wrap">
         <header class="hero">
-            <div class="mark" aria-hidden="true"></div>
-            <div>
-                <h1>Sudoku: 2,190 Levels</h1>
-                <p class="tagline">Hints and step-by-step help</p>
-            </div>
+            <h1>Sudoku: 2,190 Levels</h1>
+            <p class="tagline">Hints and step-by-step help</p>
         </header>
 
         <section class="section">
