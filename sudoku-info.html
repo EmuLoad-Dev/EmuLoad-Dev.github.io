@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sudoku for iOS — 365 levels per ladder across 9x9 and 6x6 boards, with pencil notes, hints and solution walkthroughs. Support and contact information.">
+    <title>Sudoku — App Information &amp; Support</title>
+    <style>
+        :root {
+            --bg: #FAF5ED;
+            --surface: #FFFFFF;
+            --elevated: #EDE7DC;
+            --board: #FFFFFF;
+            --ink: #203048;
+            --muted: rgba(32, 48, 72, 0.62);
+            --line: rgba(32, 48, 72, 0.12);
+            --accent-top: #4FB0FF;
+            --accent-bottom: #1E82DC;
+            --accent: #1E82DC;
+            --highlight: #FCD864;
+            --shadow: rgba(51, 155, 248, 0.28);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #161E2C;
+                --surface: #1F2836;
+                --elevated: #2A3547;
+                --board: #212C3E;
+                --ink: #EDE7DC;
+                --muted: rgba(237, 231, 220, 0.62);
+                --line: rgba(237, 231, 220, 0.14);
+                --accent-top: #66B9FF;
+                --accent-bottom: #2E93F2;
+                --accent: #66B9FF;
+                --highlight: #F2CE5E;
+                --shadow: rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            line-height: 1.62;
+            padding: 3rem 1.25rem 4rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .wrap { max-width: 860px; margin: 0 auto; }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            margin-bottom: 2.75rem;
+        }
+
+        .mark {
+            position: relative;
+            flex: 0 0 auto;
+            width: 76px;
+            height: 76px;
+            border-radius: 18px;
+            background: linear-gradient(150deg, var(--accent-top), var(--accent-bottom));
+            box-shadow: 0 10px 24px var(--shadow);
+            overflow: hidden;
+        }
+
+        .mark::before {
+            content: "";
+            position: absolute;
+            inset: 13px;
+            background-image:
+                linear-gradient(to right, rgba(255,255,255,0.62) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255,255,255,0.62) 1px, transparent 1px);
+            background-size: 33.333% 33.333%;
+            background-position: -1px -1px;
+            border: 1px solid rgba(255,255,255,0.62);
+            border-radius: 5px;
+        }
+
+        .mark::after {
+            content: "";
+            position: absolute;
+            right: 13px;
+            top: 13px;
+            width: 16.5px;
+            height: 16.5px;
+            background: var(--highlight);
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 2.7rem);
+            font-weight: 700;
+            letter-spacing: -0.022em;
+            line-height: 1.12;
+        }
+
+        .tagline { color: var(--muted); margin-top: 0.4rem; font-size: 1.02rem; }
+
+        .section { margin-top: 2.6rem; }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 650;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        h2::before {
+            content: "";
+            width: 4px;
+            height: 1.05em;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, var(--accent-top), var(--accent-bottom));
+        }
+
+        .lede { max-width: 44rem; }
+        p { margin-bottom: 0.8rem; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 0.85rem;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 1.1rem 1.2rem;
+        }
+
+        .card h3 {
+            font-size: 0.98rem;
+            font-weight: 650;
+            margin-bottom: 0.3rem;
+        }
+
+        .card p { color: var(--muted); font-size: 0.92rem; margin-bottom: 0; }
+
+        ul.features { list-style: none; }
+
+        ul.features li {
+            position: relative;
+            padding-left: 1.45rem;
+            margin-bottom: 0.55rem;
+        }
+
+        ul.features li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.58em;
+            width: 7px;
+            height: 7px;
+            border-radius: 2px;
+            background: var(--highlight);
+            box-shadow: 0 0 0 3px var(--elevated);
+        }
+
+        details {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 0.95rem 1.15rem;
+            margin-bottom: 0.65rem;
+        }
+
+        details[open] { background: var(--surface); }
+
+        summary {
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.97rem;
+            list-style-position: outside;
+        }
+
+        summary::marker { color: var(--accent); }
+
+        details p {
+            margin: 0.65rem 0 0;
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .contact {
+            margin-top: 3rem;
+            padding: 1.9rem 1.7rem;
+            border-radius: 20px;
+            background: linear-gradient(150deg, var(--accent-top), var(--accent-bottom));
+            box-shadow: 0 14px 30px var(--shadow);
+            color: #FFFFFF;
+        }
+
+        .contact h2 { color: #FFFFFF; margin-bottom: 0.5rem; }
+
+        .contact h2::before { background: rgba(255,255,255,0.65); }
+
+        .contact p { color: rgba(255,255,255,0.9); margin-bottom: 0.4rem; }
+
+        .mail {
+            display: inline-block;
+            margin-top: 0.9rem;
+            padding: 0.7rem 1.25rem;
+            border-radius: 12px;
+            background: #FFFFFF;
+            color: var(--accent-bottom);
+            font-weight: 650;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+        }
+
+        .mail:hover { background: var(--board); }
+
+        .contact .privacy-link {
+            display: inline-block;
+            margin-top: 0.95rem;
+            margin-left: 0.9rem;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 550;
+            border-bottom: 1px solid rgba(255,255,255,0.55);
+        }
+
+        .contact .privacy-link:hover { border-bottom-color: #FFFFFF; }
+
+        footer {
+            margin-top: 2.6rem;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 560px) {
+            body { padding: 2rem 1rem 3rem; }
+            .hero { gap: 1rem; }
+            .mark { width: 62px; height: 62px; border-radius: 15px; }
+            .mark::before { inset: 11px; }
+            .mark::after { right: 11px; top: 11px; width: 13.5px; height: 13.5px; }
+            .contact { padding: 1.5rem 1.25rem; }
+            .contact .privacy-link { display: block; margin-left: 0; margin-top: 0.75rem; }
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <header class="hero">
+            <div class="mark" aria-hidden="true"></div>
+            <div>
+                <h1>Sudoku</h1>
+                <p class="tagline">A year of puzzles — 365 levels on every ladder.</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>About the game</h2>
+            <p class="lede">Sudoku is a calm, focused take on the classic number puzzle. Choose a 9&times;9 or 6&times;6 board, pick Easy, Normal or Hard, and work through a ladder of 365 levels. Every puzzle is generated to have a unique solution, so logic always gets you to the answer.</p>
+        </section>
+
+        <section class="section">
+            <h2>What&rsquo;s inside</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Two board sizes</h3>
+                    <p>Classic 9&times;9 with 3&times;3 boxes, plus a quicker 6&times;6 board with 2&times;3 boxes.</p>
+                </div>
+                <div class="card">
+                    <h3>2,190 puzzles</h3>
+                    <p>Six ladders — two board sizes across three difficulties — each with 365 levels that unlock in order.</p>
+                </div>
+                <div class="card">
+                    <h3>Pencil notes</h3>
+                    <p>Jot candidates in a cell and narrow them down as the board opens up.</p>
+                </div>
+                <div class="card">
+                    <h3>Hints</h3>
+                    <p>Watch a short rewarded ad to reveal a helpful digit when you are stuck.</p>
+                </div>
+                <div class="card">
+                    <h3>Solution walkthrough</h3>
+                    <p>Step through the reasoning of a puzzle after you have cleared it.</p>
+                </div>
+                <div class="card">
+                    <h3>Progress that stays</h3>
+                    <p>Cleared levels and an unfinished board are saved on your device, so you can pick up where you left off.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>How it plays</h2>
+            <ul class="features">
+                <li>Every level has one unique solution and is generated from a fixed seed, so a level is always the same puzzle.</li>
+                <li>Levels unlock in order: clear level N to open level N + 1.</li>
+                <li>A game allows up to three mistakes before the board is closed.</li>
+                <li>The puzzles themselves run fully offline. An internet connection is only needed for ads and hints.</li>
+                <li>No account, no sign-in, and no in-app purchases.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Support</h2>
+            <details>
+                <summary>Where is my progress saved?</summary>
+                <p>Cleared levels, the current unfinished puzzle and your settings are stored locally on your iPhone. Nothing is uploaded, and there is no account to sign in to.</p>
+            </details>
+            <details>
+                <summary>I reinstalled the app and my progress is gone.</summary>
+                <p>Progress lives only on the device. Deleting the app also deletes its saved data, and reinstalling starts fresh. There is no cloud backup for progress at the moment.</p>
+            </details>
+            <details>
+                <summary>The Hint button does not respond.</summary>
+                <p>Hints are earned by watching a rewarded ad, so they need a working internet connection and an available ad. If no ad can be loaded, the button stays inactive — try again later or continue with pencil notes.</p>
+            </details>
+            <details>
+                <summary>Can I play without an internet connection?</summary>
+                <p>Yes. Puzzle generation and play are fully offline. Only ads, and therefore hints, require a connection.</p>
+            </details>
+            <details>
+                <summary>Why does the app ask for tracking permission?</summary>
+                <p>The game shows ads through Google AdMob. iOS may ask whether the app can track you across other companies&rsquo; apps and websites for advertising. Declining is fine — the game still works and ads are simply less personalized. You can change the choice later in Settings &rarr; Privacy &amp; Security &rarr; Tracking.</p>
+            </details>
+            <details>
+                <summary>How do I reset my progress?</summary>
+                <p>Deleting and reinstalling the app clears all locally stored progress. There is currently no in-app reset button.</p>
+            </details>
+        </section>
+
+        <section class="contact">
+            <h2>Contact the developer</h2>
+            <p>Questions, bug reports and feature requests are all welcome. Include your iPhone model and iOS version if you are reporting a problem.</p>
+            <a class="mail" href="mailto:gamefan9688@qq.com?subject=Sudoku%20Support">gamefan9688@qq.com</a>
+            <a class="privacy-link" href="sudoku-privacy.html">Privacy Policy</a>
+        </section>
+
+        <footer>
+            &copy; 2026 Sudoku. All rights reserved.
+        </footer>
+    </main>
+</body>
+</html>
